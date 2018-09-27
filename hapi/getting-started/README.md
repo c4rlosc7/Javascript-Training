@@ -47,4 +47,33 @@ async function start() {
 start();
 ```
 
+## anonymous functions
+```javascript
+function() {}     function(a) {}      function(a,b) {}
+```
+
+## arrow functions
+```javascript
+() => {}          a => {}            (a,b) => {}
+```
+
+### Launch project
+> npm install
+
+### Nodemon
+> npm install nodemon --save-dev
+
+```javascript
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+```
+
+### Run server
+> npm start
+
+### hapi-pino
+> npm install happi
+
 [Source](https://hapijs.com/)
